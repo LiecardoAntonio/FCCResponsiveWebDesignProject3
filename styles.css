@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <nav>
+      <header>Laravel Documentation</header>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </nav>
+    <hr></hr>
+
+    <main id="main-doc">
+      <section class="main-section">
+        <header id="Intro_to_Basic_Laravel">Intro to Basic Laravel</header>
+      </section>
+
+      <section class="main-section">
+        <header id="">Routing</header>
+      </section>
+
+      <section class="main-section">
+        <header id="">Controllers</header>
+      </section>
+
+      <section class="main-section">
+        <header id="">Migration</header>
+      </section>
+
+      <section class="main-section">
+        <header id="">Seeding</header>
+      </section>
+
+      
+
+    </main>
+
+
+
+
+
+  </body>
+
+</html>
