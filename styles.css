@@ -1,52 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 3</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
+html {
+  scrollbar-gutter: stable;
+}
 
-  <body>
-    <nav>
-      <header>Laravel Documentation</header>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-      <a href="#"></a>
-    </nav>
-    <hr></hr>
-
-    <main id="main-doc">
-      <section class="main-section">
-        <header id="Intro_to_Basic_Laravel">Intro to Basic Laravel</header>
-      </section>
-
-      <section class="main-section">
-        <header id="">Routing</header>
-      </section>
-
-      <section class="main-section">
-        <header id="">Controllers</header>
-      </section>
-
-      <section class="main-section">
-        <header id="">Migration</header>
-      </section>
-
-      <section class="main-section">
-        <header id="">Seeding</header>
-      </section>
-
-      
-
-    </main>
+* {
+  box-sizing: border-box;
+  color: #efe9e9;
+  font-family: 'Open Sans', Arial, sans-serif;
+  border-collapse: collapse;
+}
 
 
 
+.alert-message {
+  margin: 0 0 1vh 0;
+  background-color: red;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(23 25 35);
+  
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 15vw;
+  top: 0;
+  bottom: 0;
+  border-right: 1px solid red;
+}
+
+.title {
+  display: flex;
+  overflow: hidden;
+}
+
+.title > *{
+  display: flex;
+  align-items: center;
+}
+
+.title img {
+  width: 100%;
+  max-width: 4vw;
+  margin-right: 1vw;
+  border-radius: 15%;
+}
+
+header {
+  font-weight: 550 !important;
+  font-size: 1.1rem !important;
+  color: red !important;
+}
+
+#navbar>* {
+  padding: 10px;
+  color:  #d53737;;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-top: none;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+  border-left: none;
+}
+
+#main-doc {
+  margin-top: 4vh;
+  position: absolute;
+  left: 16vw;
+}
+
+.insert-link {
+  color: red;
+}
+
+pre {
+  background-color: rgb(54, 53, 53);
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+}
+
+.code-documentation {
+  margin: 0;
+  padding: 0;
+  
+}
+
+@media (max-width: 768px){
+  * {
+    font-size: 2vmax;
+  }
+  #navbar {
+    width: 20vmax;
+    z-index: 1;
+    background-color: #781919;
+  }
+  header {
+    overflow: hidden;
+  }
+  #main-doc {
+    left: 21vmax;
+    overflow-x: scroll;
+    z-index: 0;
+  }
+}
 
 
-  </body>
-
-</html>
